@@ -26,6 +26,7 @@
         <q-list padding>
           <q-item 
           to="/"
+          exact
           clickable 
           v-ripple>
             <q-item-section avatar>
@@ -37,6 +38,7 @@
 
           <q-item 
           to="/help"
+          exact
           clickable 
           v-ripple>
             <q-item-section avatar>
