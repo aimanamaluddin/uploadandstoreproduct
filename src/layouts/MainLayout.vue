@@ -12,7 +12,7 @@
         />
       </q-toolbar>
       <div class="q-px-lg q-pt-xl q-mb-md">
-        <div class="text-h3">Todo</div>
+        <div class="text-h3">Aiman</div>
         <div class="text-subtitle1">{{ todaysDate }}</div>
       </div>
 
@@ -47,6 +47,17 @@
 
             <q-item-section>Help</q-item-section>
           </q-item>
+          <q-item 
+          to="/uploadproduct"
+          exact
+          clickable 
+          v-ripple>
+            <q-item-section avatar>
+              <q-icon name="navigation" />
+            </q-item-section>
+
+            <q-item-section>Upload & Store product</q-item-section>
+          </q-item>
         </q-list>
       </q-scroll-area>
 
@@ -61,7 +72,7 @@
       </q-img>
     </q-drawer>
 
-    <q-page-container>\
+    <q-page-container>
       <keep-alive>
          <router-view />
       </keep-alive>
