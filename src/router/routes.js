@@ -1,4 +1,3 @@
-
 const routes = [
   {
     path: '/',
@@ -6,7 +5,9 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/Todo.vue') },
       { path: '/help', component: () => import('pages/Help.vue') },
-      { path: '/uploadproduct', component: () => import('pages/Uploadproduct.vue') }
+      { path: '/uploadproduct', component: () => import('pages/Uploadproduct.vue') },
+      { path: '/Editproduct', component: () => import('pages/Editproduct.vue') },
+      { path: '/Listproduct', component: () => import('pages/Listproduct.vue') }
     ]
   },
 
