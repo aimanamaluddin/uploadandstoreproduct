@@ -6,10 +6,12 @@
   "author": "aimanamaluddin <aimanamaluddin@gmail.com>",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "start": "node your-script.js"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
+    "axios": "^0.20.0",
     "core-js": "^3.6.5",
     "firebase": "^7.19.1",
     "quasar": "^1.0.0"

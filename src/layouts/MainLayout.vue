@@ -58,6 +58,19 @@
 
             <q-item-section>Upload & Store product</q-item-section>
           </q-item>
+
+          <q-item 
+          to="/MyLayout"
+          exact
+          clickable 
+          v-ripple>
+            <q-item-section avatar>
+              <q-icon name="navigation" />
+            </q-item-section>
+
+            <q-item-section>My Layout</q-item-section>
+          </q-item>
+
         </q-list>
       </q-scroll-area>
 
